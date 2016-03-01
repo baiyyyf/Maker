@@ -15,7 +15,7 @@ private let DoubleType  = "Double"
 private let BoolType    = "Bool"
 
 public class Maker: NSObject, NSCoding {
-    
+ 
     required public override init() {
         super.init()
     }
@@ -110,7 +110,7 @@ public class Maker: NSObject, NSCoding {
         
         let objectMirror = Mirror(reflecting: object)
         let keyMap = object.keyToMappedKey()
-        
+        let objectType = "\(objectMirror.subjectType)"
         
         func f(mirror: Mirror) {
             for case let (key?, value) in mirror.children {
