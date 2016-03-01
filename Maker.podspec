@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Convert JSON to Object."
 
   s.description  = <<-DESC
-                   Convert JSON to Object.
+                   Maker: Convert JSON to Object. 
                    DESC
 
   s.homepage     = "https://github.com/baiyyyf/Maker"
